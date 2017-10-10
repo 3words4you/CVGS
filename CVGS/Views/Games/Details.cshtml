@@ -11,7 +11,7 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.title)
+            Title
         </dt>
 
         <dd>
@@ -19,7 +19,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.description)
+            Description
         </dt>
 
         <dd>
@@ -27,7 +27,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.developer)
+           Developer
         </dt>
 
         <dd>
@@ -35,7 +35,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.publisher)
+            Publisher
         </dt>
 
         <dd>
@@ -43,7 +43,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.releasedDate)
+            Released Date
         </dt>
 
         <dd>
@@ -51,23 +51,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.createdDate)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.createdDate)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.updatedDate)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.updatedDate)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.price)
+            Price
         </dt>
 
         <dd>
@@ -75,7 +59,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Category.categoryName)
+            Category
         </dt>
 
         <dd>
@@ -83,11 +67,27 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Category1.categoryName)
+            Sub Category
         </dt>
 
         <dd>
             @Html.DisplayFor(model => model.Category1.categoryName)
+        </dd>
+
+        <dt>
+            Created At
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.createdDate)
+        </dd>
+
+        <dt>
+           Updated At
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.updatedDate)
         </dd>
 
     </dl>

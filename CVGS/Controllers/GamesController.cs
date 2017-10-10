@@ -53,6 +53,8 @@ namespace CVGS.Controllers
         {
             if (ModelState.IsValid)
             {
+                game.createdDate = DateTime.Now;
+                game.updatedDate = DateTime.Now;
                 db.Games.Add(game);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -89,6 +91,7 @@ namespace CVGS.Controllers
         {
             if (ModelState.IsValid)
             {
+                game.updatedDate = DateTime.Now;
                 db.Entry(game).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");

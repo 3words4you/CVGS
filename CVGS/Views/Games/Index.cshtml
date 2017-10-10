@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<CVGS.Models.Game>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Game";
 }
 
 <h2>Index</h2>
@@ -12,35 +12,36 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.title)
+            Title
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.description)
+            Created At
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.developer)
+            Updated At
+        </th>
+        @*<th>
+            Description
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.publisher)
+            Developer
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.releasedDate)
+            Publisher
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.createdDate)
+            ReleasedDate
+        </th>
+       
+        <th>
+            Price
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.updatedDate)
+            Category
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.price)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Category.categoryName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Category1.categoryName)
-        </th>
+            Sub Category
+        </th>*@
         <th></th>
     </tr>
 
@@ -50,6 +51,12 @@
             @Html.DisplayFor(modelItem => item.title)
         </td>
         <td>
+            @Html.DisplayFor(modelItem => item.createdDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.updatedDate)
+        </td>
+        @*<td>
             @Html.DisplayFor(modelItem => item.description)
         </td>
         <td>
@@ -62,12 +69,6 @@
             @Html.DisplayFor(modelItem => item.releasedDate)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.createdDate)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.updatedDate)
-        </td>
-        <td>
             @Html.DisplayFor(modelItem => item.price)
         </td>
         <td>
@@ -75,7 +76,7 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Category1.categoryName)
-        </td>
+        </td>*@
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.gameID }) |
             @Html.ActionLink("Details", "Details", new { id=item.gameID }) |

@@ -1,4 +1,3 @@
-C:\Users\moyi0\Desktop\project\CVGS\CVGS\obj\Debug\CVGS.csprojResolveAssemblyReference.cache
 C:\Users\moyi0\Desktop\project\CVGS\CVGS\obj\Debug\CVGS.csproj.CoreCompileInputs.cache
 C:\Users\moyi0\Desktop\project\CVGS\CVGS\bin\ApplicationInsights.config
 C:\Users\moyi0\Desktop\project\CVGS\CVGS\bin\roslyn\csc.exe
