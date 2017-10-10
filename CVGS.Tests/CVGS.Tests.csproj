@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0C6BF65B-D543-463D-BCE5-B7AD03CC3678}</ProjectGuid>
+    <ProjectGuid>{BDD1C2DA-7CF8-46EE-9333-FFE8BF1E72C1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CVGS.Tests</RootNamespace>
@@ -100,7 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CVGS\CVGS.csproj">
-      <Project>{69F3EE9F-BB06-4535-9356-4B0977667F68}</Project>
+      <Project>{31A0CB4A-A737-49FB-BCA7-8DA8F545B2F6}</Project>
       <Name>CVGS</Name>
     </ProjectReference>
   </ItemGroup>
