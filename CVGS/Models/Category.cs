@@ -24,7 +24,7 @@ namespace CVGS.Models
         public int categoryID { get; set; }
         public string categoryName { get; set; }
         public Nullable<System.DateTime> createdDate { get; set; }
-        public System.DateTime updatedDate { get; set; }
+        public Nullable<System.DateTime> updatedDate { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Game> Games { get; set; }
